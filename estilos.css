@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background: darksalmon;
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav{
+    background: darkred;
+}
+
+header nav a{
+    background: chartreuse;
+    color: darkblue;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px;
+    
+}
+
+header nav a:hover{
+    background: darkorchid;
+}
+
+/*******************Main******************************************/
+
+main{
+    background: darkseagreen;
+    padding: 50px;
+    position: relative;
+    overflow: hidden;
+}
+
+/***********************************************************/
+
+.img-contenedor img{
+    width: 300px;
+    display: block;
+}
+
+/**********************************************************/
+
+.main-contenedor{
+    display: flex;
+    justify-self: space-between;
+    align-items: center;
+    height: 
+}
+
+.info-contenedor{
+    color: #fff;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.info-contenedor .llamanos{
+    color: darkslategray;
+    font-size: 18px;
+    text-decoration: none;
+    display: inline-block;
+    background: aqua;
+    padding: 10px;
+}
