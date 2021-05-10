@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #f8f8f8;
+    font-family: 'Raleway', sans-serif;
+}
+
+/************************************************************HEADER********/
+
+.contenedor-header{
+    width: 95%;
+    margin: auto;
+    max-width: 1200px;
+    overflow: hidden;
+    height: 100%;
+    /*max-width: ;*/
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header{
+    padding: 20px;
+}
+
+
+
+header .logotipo{
+    font-family: 'Caveat', cursive;
+    font-weight: bolder;
+    color: #8a00d4;
+    font-size: 45px;
+}
+
+header nav a{
+    color: #6c7b95;
+    text-decoration: none;
+    margin-right: 20px;
+    font-size: 17px;
+}
+
+header nav a:hover,
+header nav a.activo{
+    color: #384357;
+}
+
+
+

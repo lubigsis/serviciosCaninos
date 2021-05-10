@@ -1,0 +1,466 @@
+/************************************************************MAIN**************/
+
+.contenedor-descripcion-imagenes{
+    width: 95%;
+    height: 500px;
+    border: solid 1px red;
+    margin: auto;
+    display: flex;
+}
+
+    .contenedor-descripcion{
+        width: 670px;
+        margin: 0;
+        background: green;
+        height: 500px;
+        color: wheat;
+        padding-top: 200px;
+        font-size: 20px ;
+        text-align: center;
+        justify-content: center;
+        
+    }
+
+    .contenedor-perro1{
+        padding-top: 30px;
+        
+        width: 400px;
+        background: blue;
+        height: 500px;
+    }
+
+    .contenedor-perro2{
+        margin-top: 245px;
+        width: 230px;
+        background: purple;
+        height: 255px;
+    }
+
+
+
+/****************************************************************PERRO1********/
+
+.cont-cara-p1{
+    background-color: #af8546;
+    height: 220px;
+    width: 220px;
+    border-radius: 50%;
+    margin: auto;
+    position: relative;
+    z-index: 5;
+    animation: rotar 3s infinite ease-in-out alternate;
+}
+
+.cont-orejas-p1{
+    margin: auto;
+    height: 83.3px;
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    top: 20px;
+}
+
+.cont-orejas-p1 .orejas-p1{
+    height: 0;
+    width: 0;
+    border-right: 48px solid transparent;
+    border-top: 48px solid transparent;
+    border-left: 48px solid #8f6a34;
+    border-bottom: 48px solid #8f6a34;
+    border-radius: 15px;
+}
+
+.cont-orejas-p1 .orejita1-p1{
+    transform: rotate(90deg);
+    position: relative;
+    left: -40px;
+    z-index: 2;
+}
+
+.cont-orejas-p1 .orejita2-p1{
+    transform: rotate(-180deg);
+    position: relative;
+    left: -45px;
+    z-index: 2;
+
+}
+
+.detalle-carita-p1{
+    height: 25px;
+    width: 25px;
+    margin: auto;
+    background-color: #8f6a34;
+    position: relative;
+    transform: rotate(-45deg);
+    top: -50px;
+}
+
+.detalle-carita-p1 .linea-p1{
+    position: absolute;
+    height: 90px;
+    width: 7px;
+    border-radius: 20px;
+    background-color: #8f6a34;    
+    left: -25px;
+    transform: rotate(45deg);
+}
+
+.cont-ojos-p1{
+    margin: auto;
+    position: relative;
+    height: 70px;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    top: -40px;
+}
+
+.cont-ojos-p1 .ojos-perrito1{
+    height: 55px;
+    width: 65px;
+    background-color: black;
+    border-radius: 40px 40px 30px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ojos-perrito1 .pupila-p1{
+    height: 18px;
+    width: 18px;
+    background-color: white;
+    border-radius: 50%;
+}
+
+.cont-nariz-p1{
+    margin: auto;
+    position: relative;
+    height: 115px;
+    width: 130px;
+    background-color:#8f6a34;
+    border-radius: 40px 40px 30px 30px;
+    display: flex;
+    top: -45px;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #80602e;
+}
+
+.cont-nariz-p1 .nariz-p1{
+    height: 55px;
+    width: 64px;
+    border-radius: 20px 20px 50px 50px;
+    background-color: black;
+}
+
+
+.nariz-p1::before{
+    content: "";
+    position: absolute;
+    height: 20px;
+    width: 90px;
+    left: 19px;
+    background-color: #70542b;
+    top: 110px;
+    z-index: -1;
+    border-radius: 0 0 50% 50%;
+}
+
+
+
+.cont-cuerpo-p1{
+    height: 290px;
+    width: 246px;
+    background-color: #af8546;
+    margin: -40px auto;
+    border-radius: 40% 40% 0 0;
+    overflow: hidden;
+}
+
+
+.cuello-p1{
+    margin: auto;
+    height: 150px;
+    width: 160px;
+    border-radius: 0 0 50% 50%;
+    background-color: #806132;
+    
+}
+
+.lengua-p1{    
+    height: 90px;
+    width: 75px;
+    background-color: #f77d77;
+    position: absolute;
+    left: 72px;
+    top: 220px;
+    border-radius: 30px;
+    z-index: -1;
+    transform-origin: top;
+    transform: scaleY(0);
+    animation: lengua 4s infinite linear alternate;
+}
+
+
+.patas-p1{
+    border-radius: 20px;
+    height: 127px;
+    width: 170px;
+    background-color: white;
+    margin: 50px auto;
+}
+
+
+/****************************************************************PERRO2********/
+
+.cont-cara-p2{
+    background-color: #8a642b;
+    height: 110px;
+    width: 110px;
+    border-radius: 50%;
+    margin: auto;
+    position: relative;
+    z-index: 5;
+    /*animation: rotar 4s infinite ease-in-out alternate;*/
+}
+
+.cont-orejas-p2{
+    margin: auto;
+    height: 45px;
+    width: 156px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    top: 10px;
+}
+
+.cont-orejas-p2 .orejas-p2{
+    height: 0;
+    width: 0;
+    border-right: 25px solid transparent;
+    border-top: 25px solid transparent;
+    border-left: 25px solid #7c5c2d;
+    border-bottom: 25px solid #7c5c2d;
+    border-radius: 10px;
+}
+
+.cont-orejas-p2 .orejita1-p2{
+    transform: rotate(90deg);
+    position: relative;
+    left: -27px;
+    z-index: 2;
+}
+
+.cont-orejas-p2 .orejita2-p2{
+    transform: rotate(-180deg);
+    position: relative;
+    left: -19px;
+    z-index: 2;
+
+}
+
+
+.detalle-carita-p2{
+    height: 13px;
+    width: 13px;
+    margin: auto;
+    background-color: #725121;
+    position: relative;
+    transform: rotate(-45deg);
+    top: -35px;
+}
+
+.detalle-carita-p2 .linea-p2{
+    position: absolute;
+    height: 50px;
+    width: 4px;
+    border-radius: 20px;
+    background-color: #725121;    
+    left: -13px;
+    transform: rotate(45deg);
+}
+
+.cont-ojos-p2{
+    margin: auto;
+    position: relative;
+    height: 40px;
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+    top: -25px;
+}
+
+.cont-ojos-p2 .ojos-perrito2{
+    height: 23px;
+    width: 33px;
+    background-color: black;
+    border-radius: 50%;
+    display: flex;
+   
+    
+}
+
+.ojos-perrito2 .pupila-p2{
+    height: 9px;
+    width: 9px;
+    background-color: white;
+    border-radius: 50%;
+    position: relative;
+    left: 9px;
+    top: 2px;
+}
+
+.ojos-perrito2 .reflejo1-p2{
+    height: 3px;
+    width: 3px;
+    background-color: white;
+    border-radius: 50%;
+    position: relative;
+    top: 13px;
+    left: 13px;
+}
+
+.ojos-perrito2 .reflejo2-p2{
+    height: 3px;
+    width: 3px;
+    background-color: white;
+    border-radius: 50%;
+    position: relative;
+    top: 13px;
+    left: 13px;
+}
+
+
+.cont-nariz-p2{
+    margin: auto;
+    position: relative;
+    height: 50px;
+    width: 70px;
+    background-color:#725121;
+    border-radius: 25px 25px 35px 35px;
+    display: flex;
+    top: -33px;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #63461c;
+}
+
+.cont-nariz-p2 .nariz-p2{
+    height: 20px;
+    width: 28px;
+    border-radius: 20px 20px 50px 50px;
+    background-color: black;
+}
+
+.nariz-p2::before{
+    content: "";
+    position: absolute;
+    height: 17px;
+    width: 42px;
+    left: 12px;
+    background-color: #5a4019;
+    top: 38px;
+    z-index: -1;
+    border-radius: 0 0 60% 60%;
+    border: solid 1px #574021;
+}
+
+
+
+.cont-cuerpo-p2{
+    height: 160px;
+    width: 120px;
+    background-color: #8a642b;
+    margin: -15px auto;
+    border-radius: 40% 40% 0 0;
+    overflow: hidden;
+}
+
+.cuello-p2{
+    margin: auto;
+    height: 70px;
+    width: 70px;
+    border-radius: 0 0 50% 50%;
+    background-color: #725120;
+}
+
+.lengua-p2{    
+    height: 40px;
+    width: 32px;
+    background-color: #d56059;
+    position: absolute;
+    left: 39px;
+    top: 90px;
+    border-radius: 30px;
+    z-index: -1;
+    transform-origin: top;
+    transform: scaleY(0);
+    animation: lengua 3s infinite linear alternate;
+}
+
+.patas-p2{
+    border-radius: 7px;
+    height: 150px;
+    width: 70px;
+    background-color: white;
+    margin: 30px auto;
+}
+
+/****************************************************colita*/
+
+
+.cont-cuerpo-p2::before{
+    content: "";
+    position: absolute;
+    background-color: #8a642b;
+    height: 60px;
+    width: 9px;
+    border-radius: 50% 50% 10px 10px;
+    margin: -11px 3px;
+    transform-origin: bottom;
+    animation: colita .4s infinite linear alternate;
+    transform: rotate(-70deg);
+}
+
+
+/*************************************************ANIMACIONES**************/
+
+@keyframes rotar{
+    0%{
+        transform: rotate(0deg);
+    }
+    25%,50%{
+        transform: rotate(10deg);
+    }
+    50%,75%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(-10deg);
+    }
+}
+
+@keyframes lengua{
+    0%,25%{
+        transform: scaleY(1);
+    }
+    50%{
+        transform: scaleY(1);
+    }
+    75%{
+        transform: scaleY(0);
+    }
+    100%{
+        transform: scaleY(1);
+    }
+}
+
+@keyframes colita{
+    0%{
+        transform: rotate(10deg);
+    }
+    100%{
+        transform:rotate(-30deg);
+    }
+}
