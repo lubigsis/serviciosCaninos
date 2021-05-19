@@ -1,39 +1,39 @@
 /************************************************************MAIN**************/
 
 .contenedor-descripcion-imagenes{
-    width: 95%;
+    width: 100%;
     height: 500px;
-    border: solid 1px red;
     margin: auto;
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
     .contenedor-descripcion{
-        width: 670px;
+        width: 500px;
         margin: 0;
-        background: green;
         height: 500px;
-        color: wheat;
-        padding-top: 200px;
-        font-size: 20px ;
+        color: #0066ff;
+        padding-top: 150px;
+        font-size: 45px;
+        font-family: 'Caveat', cursive;
         text-align: center;
         justify-content: center;
+        letter-spacing: 0.02em;
         
     }
 
     .contenedor-perro1{
         padding-top: 30px;
-        
-        width: 400px;
-        background: blue;
+        width: 350px;
         height: 500px;
+        
     }
 
     .contenedor-perro2{
         margin-top: 245px;
-        width: 230px;
-        background: purple;
-        height: 255px;
+        width: 200px;
+       
     }
 
 
@@ -144,7 +144,7 @@
     top: -45px;
     justify-content: center;
     align-items: center;
-    border: 1px solid #80602e;
+    border: 1px solid #5a431e;
 }
 
 .cont-nariz-p1 .nariz-p1{
@@ -184,7 +184,7 @@
     height: 150px;
     width: 160px;
     border-radius: 0 0 50% 50%;
-    background-color: #806132;
+    background-color:  #936f39;
     
 }
 
@@ -240,8 +240,8 @@
     width: 0;
     border-right: 25px solid transparent;
     border-top: 25px solid transparent;
-    border-left: 25px solid #7c5c2d;
-    border-bottom: 25px solid #7c5c2d;
+    border-left: 25px solid #63471d;
+    border-bottom: 25px solid #63471d;
     border-radius: 10px;
 }
 
@@ -337,13 +337,13 @@
     position: relative;
     height: 50px;
     width: 70px;
-    background-color:#725121;
+    background-color: #63471d;
     border-radius: 25px 25px 35px 35px;
     display: flex;
     top: -33px;
     justify-content: center;
     align-items: center;
-    border: 1px solid #63461c;
+    border: 1px solid #463115;
 }
 
 .cont-nariz-p2 .nariz-p2{
@@ -382,7 +382,7 @@
     height: 70px;
     width: 70px;
     border-radius: 0 0 50% 50%;
-    background-color: #725120;
+    background-color: #745425;
 }
 
 .lengua-p2{    
@@ -462,5 +462,240 @@
     }
     100%{
         transform:rotate(-30deg);
+    }
+}
+
+/****************************************************************BURBUJAS*********/
+
+.burbujas .burbujita-uno{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background: #ff99e6;
+    opacity: .3;
+    position: absolute;
+    bottom: 0px;
+    left: 5%;
+    animation: burbujas 10s linear infinite;
+}
+
+.burbujas .burbujita-dos{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #ff99e6;
+    opacity: .3;
+    position: absolute;
+    bottom: 0px;
+    left: 15%;
+    animation: burbujas 4s linear infinite;
+}
+
+.burbujas .burbujita-tres{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: #ff99e6;
+    opacity: .3;
+    position: absolute;
+    bottom: 0px;
+    left: 20%;
+    animation: burbujas 7s linear infinite;
+}
+
+.burbujas .burbujita-tres{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background: #ff99e6;
+    opacity: .3;
+    position: absolute;
+    bottom: 0px;
+    left: 25%;
+    animation: burbujas 3s linear infinite;
+}
+
+.burbujas .burbujita-cuatro{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: #ff99e6;
+    opacity: .3;
+    position: absolute;
+    bottom: 0px;
+    left: 30%;
+    animation: burbujas 7s linear infinite;
+}
+
+.burbujas .burbujita-cinco{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: #ff99e6;
+    opacity: .3;
+    position: absolute;
+    bottom: 0px;
+    left: 35%;
+    animation: burbujas 7s linear infinite;
+}
+
+.burbujas .burbujita-seis{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background: #ff99e6;
+    opacity: .3;
+    position: absolute;
+    bottom: 0px;
+    left: 40%;
+    animation: burbujas 8s linear infinite;
+}
+
+
+.burbujas .burbujita-seis{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: #ff99e6;
+    opacity: .3;
+    position: absolute;
+    bottom: 0px;
+    left: 45%;
+    animation: burbujas 7s linear infinite;
+}
+
+.burbujas .burbujita-siete{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: #ff99e6;
+    opacity: .3;
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    animation: burbujas 8s linear infinite;
+    z-index: 300;
+}
+
+.burbujas .burbujita-ocho{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: #ff99e6;
+    opacity: .3;
+    position: absolute;
+    bottom: 0px;
+    left: 60%;
+    animation: burbujas 9s linear infinite;
+    z-index: 300;
+}
+
+
+.burbujas .burbujita-nueve{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #ff99e6;
+    opacity: .3;
+    position: absolute;
+    bottom: 0px;
+    left: 60%;
+    animation: burbujas 4s linear infinite;
+    z-index: 300;
+}
+
+
+.burbujas .burbujita-diez{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #ff99e6;
+    opacity: .3;
+    position: absolute;
+    bottom: 0px;
+    left: 65%;
+    animation: burbujas 6s linear infinite;
+    z-index: 300;
+}
+
+.burbujas .burbujita-once{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: #ff99e6;
+    opacity: .3;
+    position: absolute;
+    bottom: 0px;
+    left: 70%;
+    animation: burbujas 10s linear infinite;
+    z-index: 300;
+}
+
+
+.burbujas .burbujita-doce{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: #ff99e6;
+    opacity: .3;
+    position: absolute;
+    bottom: 0px;
+    left: 75%;
+    animation: burbujas 8s linear infinite;
+    z-index: 300;
+}
+
+.burbujas .burbujita-trece{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: #ff99e6;
+    opacity: .3;
+    position: absolute;
+    bottom: 0px;
+    left: 80%;
+    animation: burbujas 7s linear infinite;
+    z-index: 300;
+}
+
+.burbujas .burbujita-catorce{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: #ff99e6;
+    opacity: .3;
+    position: absolute;
+    bottom: 0px;
+    left: 85%;
+    animation: burbujas 8s linear infinite;
+    z-index: 300;
+}
+
+
+.burbujas .burbujita-quince{
+    width: 62px;
+    height: 62px;
+    border-radius: 50%;
+    background: #ff99e6;
+    opacity: .3;
+    position: absolute;
+    bottom: 0px;
+    left: 95%;
+    animation: burbujas 9s linear infinite;
+    z-index: 300;
+}
+
+
+@keyframes burbujas{
+    0%{
+        bottom: 0;
+        opacity: 0;
+    }
+    50%{
+        opacity: .4;
+    }
+    100%{
+        bottom: 100vh;
+        opacity: 0;
     }
 }

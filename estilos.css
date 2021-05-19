@@ -2,6 +2,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
 }
 
 body{
@@ -13,40 +15,111 @@ body{
 
 .contenedor-header{
     width: 95%;
-    margin: auto;
     max-width: 1200px;
     overflow: hidden;
     height: 100%;
-    /*max-width: ;*/
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: auto;
 }
 
 header{
-    padding: 20px;
+    
+    height: 65px;
+    padding: 5px;
+    background:	 #e6f0ff;
 }
 
-
-
-header .logotipo{
+.texto-logo{
+   
+    justify-content: center;
+    text-align: center;
     font-family: 'Caveat', cursive;
     font-weight: bolder;
-    color: #8a00d4;
-    font-size: 45px;
+  
+       
 }
+
+.texto-logo h1{
+    font-size: 44px;
+    display: inline-block;
+    margin-right: 20px;
+    color:#ff0080;
+}
+
+.texto-logo h3{
+    font-size: 24px;
+    display: inline-block;
+    color: #af8546;
+}
+
+.navegacion{
+    margin-left: 25%;
+}
+
 
 header nav a{
-    color: #6c7b95;
-    text-decoration: none;
+    color: #0066ff;
     margin-right: 20px;
-    font-size: 17px;
+    font-size: 14px;
+    font-family: cursive;
+    margin-bottom: 20px;
+    letter-spacing: 0.2em;
 }
 
-header nav a:hover,
-header nav a.activo{
-    color: #384357;
+header nav a:hover {
+   color: #af8546;
 }
 
+.boton{
+    cursor: pointer;
+    display: inline-block;
+    border: 0;
+    font-weight: bold;
+    padding: 10px 20px;
+    background: #ff0080;
+    color: #fff;
+    font-size: 15px;
+    letter-spacing: 0.20em;
+    border: .2px solid #fff;
+    margin-top: 30px;
+    border-radius: 25%;
+   
+}
 
+.boton:hover{
+    opacity: .6;
+    
+}
 
+/************************************************FOOTER**************************/
+
+footer {
+    background: #001f4d;
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+   
+}
+
+footer .social a{
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 50px 10px 50px;
+    text-align: center;
+    font-size: 27px;
+}
+
+footer .social a:hover{
+    color: #af8546;
+}
+
+hr{
+    color: #0066ff;
+    background: #0066ff;
+    width: 100%;
+    margin: auto;
+}
