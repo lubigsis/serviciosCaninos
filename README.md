@@ -16,7 +16,7 @@ Animaciones con CSS
 
 Falta:
 
--Hacer el fotter
+-Hacer el footer
 -Responsive design
 -Optimizar código
 -Hacer form para enviar mensajes
@@ -24,3 +24,17 @@ Falta:
 -Detalles de fuentes, colores, fondos
 
 .............................................................................................................................
+
+19/05/2021:
+
+. Optimicé header, colores, espacios.
+. Hice el footer
+. Agregué animaciones de burbujas
+
+Falta:
+. Responsive design
+. Linkear redes sociales
+. Hacer formulario de contacto
+. Hacer el desarrollo de las otras pestañas
+
+....................................................................................................................................
