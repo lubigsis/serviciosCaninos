@@ -2,11 +2,12 @@
 
 .contenedor-descripcion-imagenes{
     width: 100%;
-    height: 500px;
+    height: 100vh;
     margin: auto;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    border: 2px solid blue;
 }
 
     .contenedor-descripcion{
@@ -20,7 +21,7 @@
         text-align: center;
         justify-content: center;
         letter-spacing: 0.02em;
-        
+        border: 2px solid red;
     }
 
     .contenedor-perro1{
@@ -465,7 +466,7 @@
     }
 }
 
-/****************************************************************BURBUJAS*********/
+/****************************************************************************************BURBUJAS*********/
 
 .burbujas .burbujita-uno{
     width: 70px;
