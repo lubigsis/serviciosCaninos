@@ -7,21 +7,21 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    border: 2px solid blue;
+    /*border: 2px solid blue;*/
 }
 
     .contenedor-descripcion{
         width: 500px;
         margin: 0;
         height: 500px;
-        color: #0066ff;
+        color: #40444b;
         padding-top: 150px;
         font-size: 45px;
         font-family: 'Caveat', cursive;
         text-align: center;
         justify-content: center;
         letter-spacing: 0.02em;
-        border: 2px solid red;
+      /*  border: 2px solid red;*/
     }
 
     .contenedor-perro1{
@@ -39,7 +39,7 @@
 
 
 
-/****************************************************************PERRO1********/
+/****************************************************************PERRO1*************************/
 
 .cont-cara-p1{
     background-color: #af8546;

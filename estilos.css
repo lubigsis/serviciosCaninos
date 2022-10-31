@@ -7,17 +7,17 @@
 }
 
 body{
-    background: #f8f8f8;
+    background: #fff;
     font-family: 'Raleway', sans-serif;
 }
 
 /************************************************************HEADER************************************/
 
 .contenedor-header{
-    width: 95%;
+    width: 100%;
     max-width: 1200px;
     overflow: hidden;
-    height: 100%;
+    height: auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -26,41 +26,41 @@ body{
 
 header{
     
-    height: 65px;
-    padding: 5px;
-    background:	 #e6f0ff;
+    height: 70px;
+    padding: 5px 3px 7px 3px;
+    background: linear-gradient(#6a6f78, #fff);
 }
 
-.texto-logo{
-   
+.texto-logo{   
     justify-content: center;
     text-align: center;
     font-family: 'Caveat', cursive;
-    font-weight: bolder;
-  
+    font-weight: bolder; 
        
 }
 
 .texto-logo h1{
-    font-size: 44px;
+    font-size: 48px;
     display: inline-block;
-    margin-right: 20px;
+    margin-right: 15px;
     color:#ff0080;
 }
 
-.texto-logo h3{
-    font-size: 24px;
+.texto-logo p{
+    font-size: 22px;
     display: inline-block;
-    color: #af8546;
+    color: #40444b;
+    letter-spacing: 2px;
+    
 }
 
 .navegacion{
-    margin-left: 25%;
+    margin-left: 20%;
 }
 
 
 header nav a{
-    color: #0066ff;
+    color: #40444b;
     margin-right: 20px;
     font-size: 14px;
     font-family: cursive;
@@ -69,7 +69,7 @@ header nav a{
 }
 
 header nav a:hover {
-   color: #af8546;
+   color: #ff0080;
 }
 
 .boton{
@@ -77,14 +77,14 @@ header nav a:hover {
     display: inline-block;
     border: 0;
     font-weight: bold;
-    padding: 10px 20px;
+    padding: 15px 25px;
     background: #ff0080;
     color: #fff;
     font-size: 15px;
     letter-spacing: 0.20em;
-    border: .2px solid #fff;
+    border: 2px solid #fff;
     margin-top: 30px;
-    border-radius: 25%;
+    border-radius: 50%;
    
 }
 
@@ -93,7 +93,7 @@ header nav a:hover {
     
 }
 
-/************************************************FOOTER**************************/
+/************************************************FOOTER*****************************************************************/
 
 footer {
     background: #001f4d;
@@ -114,24 +114,59 @@ footer .social a{
 }
 
 footer .social a:hover{
-    color: #af8546;
-}
-
-hr{
-    color: #0066ff;
-    background: #0066ff;
-    width: 100%;
-    margin: auto;
+    color: #ff0080;
 }
 
 
 /*------------------------------------------------Nuestros servicios-------------------*/
 
+.seccion-servicios{
+ width: 100%;
+ height: auto;
+/* border: 1px solid red;*/
+ padding: 30px;
+ 
+}
 
+.seccion-servicios h2{
+    padding: 10px;
+}
 
+.seccion-servicios p{
+    margin: 20px 0 50px 0;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
 
+.seccion-servicios .box-container-servicios{
+    width: 80%;
+    margin: 30px auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+   /* border: 2px solid green;*/
+    
+}
 
+.box-container-servicios .box{
+    /*border: 2px solid #001f4d;*/
+    display: inline-block;
+    width: 30%;
+    margin: 10px;
+}
 
+.box-container-servicios .box img{
+    width: 100%;
+    height: 60%;
+   /* border: 2px solid yellow;*/
+}
+
+.box-container-servicios .box h3{
+    text-align: center;
+    /*border: 1px solid purple;*/
+    margin: 10px 0;
+    padding: 10px;
+}
 
 /*----------------------------------------------Banner Horarios-----------------------*/
 .seccion-horarios{
@@ -167,3 +202,10 @@ hr{
 
 
 /*--------------------------------------------------Nosotros--------------------------------*/
+.seccion-nosotros{
+    width: 100%;
+}
+
+.seccion-nosotros .avatar-nosotros img{
+    width: 15%;
+}
