@@ -9,61 +9,66 @@
 body{
     background: #fff;
     font-family: 'Raleway', sans-serif;
-}
-/*
-main{
+    font-size: 16px;
     max-width: 1200px;
-}*/
+    margin: auto;
+}
 
-/************************************************************HEADER*****************************************************/
 
-.contenedor-header{
+/*-------------------------------------------------------------------------------------------------header-------*/
+header{
+    border: 2px solid blue;
+    background: linear-gradient(#fad6f9, #fff);
+}
+
+
+header .contenedor-header{
     width: 100%;
+    height: 100%;
     max-width: 1200px;
     overflow: hidden;
-    height: auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin: auto;
+    flex-wrap: wrap;
+    border: 2px solid yellow;
+    padding: 5px;
 }
 
-header{
+
+
+.contenedor-header .texto-logo{   
+    /*justify-content: center;*/
+   /* text-align: center;*/
     
-    height: 70px;
-    padding: 5px 3px 7px 3px;
-    background: linear-gradient(#6a6f78, #fff);
-}
-
-.texto-logo{   
-    justify-content: center;
-    text-align: center;
     font-family: 'Caveat', cursive;
     font-weight: bolder; 
+    border: 2px solid green;
        
 }
 
-.texto-logo h1{
-    font-size: 48px;
+.contenedor-header .texto-logo h1{
+    font-size: 3em;
     display: inline-block;
-    margin-right: 15px;
+    margin-right: 0.9375rem;
     color:#ff0080;
 }
 
-.texto-logo p{
-    font-size: 22px;
+.contenedor-header .texto-logo p{
+    font-size: 1.375em;
     display: inline-block;
     color: #40444b;
     letter-spacing: 2px;
     
 }
 
-.navegacion{
-    margin-left: 20%;
+.contenedor-header .navegacion{
+    margin-left: 2%;
 }
 
 
-header nav a{
+.contenedor-header .navegacion a{
     color: #40444b;
     margin-right: 20px;
     font-size: 14px;
@@ -72,30 +77,91 @@ header nav a{
     letter-spacing: 0.2em;
 }
 
-header nav a:hover {
+.contenedor-header .navegacion a:hover {
    color: #ff0080;
 }
 
-.boton{
-    cursor: pointer;
-    display: inline-block;
-    border: 0;
-    font-weight: bold;
-    padding: 15px 25px;
-    background: #ff0080;
-    color: #fff;
-    font-size: 15px;
-    letter-spacing: 0.20em;
-    border: 2px solid #fff;
-    margin-top: 30px;
-    border-radius: 50%;
-   
+
+/*------------------------------------------------------------------------------------------main----------------*/
+
+
+
+.contenedor-descripcion-imagenes{
+    width: 100%;
+    height: 100vh;
+    /*margin: auto;*/
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border: 4px dashed lawngreen;
 }
 
-.boton:hover{
-    opacity: .6;
+.contenedor-descripcion-imagenes .contenedor-descripcion{
+        width: 40%;
+        /*margin: auto;*/
+        height: 100vh;
+        /* justify-content: center;*/
+        border: 2px dashed purple;
+        text-align: center;
+    }
+
+.contenedor-descripcion-imagenes .contenedor-descripcion p{
+        padding-top: 9.375rem;
+        font-size: 2.8125em;
+        letter-spacing: 0.02em;
+        font-family: 'Caveat', cursive;
+        color: #40444b;
+    }
+
+    .contenedor-descripcion-imagenes .contenedor-descripcion .boton{
+        cursor: pointer;
+        display: inline-block;
+        border: 0;
+        font-weight: bold;
+        padding: 15px 25px;
+        background: #ff0080;
+        color: #fff;
+        font-size: 15px;
+        letter-spacing: 0.20em;
+        /*border: 2px solid #fff;*/
+        margin-top: 30px;
+        border-radius: 50%;
+        
+       
+    }
     
-}
+.contenedor-descripcion-imagenes .contenedor-descripcion .boton:hover{
+        opacity: .6;
+        
+    }
+
+.contenedor-descripcion-imagenes .contenedor-2perros{
+        width: 60%;
+        border: 5px solid brown;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        
+    }
+
+
+    .contenedor-perro1{
+        padding-top: 30px;
+        width: 350px;
+        height: 500px;
+        border: 1px solid orange;
+    }
+
+    .contenedor-perro2{
+        margin-top: 245px;
+        width: 200px;
+       border: 1px solid black;
+    }
+
+
+
+
 
 /************************************************FOOTER*****************************************************************/
 

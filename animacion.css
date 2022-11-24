@@ -1,44 +1,3 @@
-/************************************************************MAIN**************/
-
-.contenedor-descripcion-imagenes{
-    width: 100%;
-    height: 100vh;
-    margin: auto;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    /*border: 2px solid blue;*/
-}
-
-    .contenedor-descripcion{
-        width: 500px;
-        margin: 0;
-        height: 500px;
-        color: #40444b;
-        padding-top: 150px;
-        font-size: 45px;
-        font-family: 'Caveat', cursive;
-        text-align: center;
-        justify-content: center;
-        letter-spacing: 0.02em;
-      /*  border: 2px solid red;*/
-    }
-
-    .contenedor-perro1{
-        padding-top: 30px;
-        width: 350px;
-        height: 500px;
-        
-    }
-
-    .contenedor-perro2{
-        margin-top: 245px;
-        width: 200px;
-       
-    }
-
-
-
 /****************************************************************PERRO1*************************/
 
 .cont-cara-p1{
@@ -408,7 +367,7 @@
     margin: 30px auto;
 }
 
-/****************************************************colita*/
+/****************************************************colita*-----------------------------------------/
 
 
 .cont-cuerpo-p2::before{
