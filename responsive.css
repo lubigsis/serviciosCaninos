@@ -105,6 +105,7 @@
     height: 100vh;
   /*  border: 2px dashed purple;*/
     text-align: center;
+    font-size: 20px;
 }
 
 
@@ -145,8 +146,16 @@
     
 }
 
+/*-----------------------------------------------------------horarios de atención--------------------*/
+.seccion-horarios .contenido-horarios{
+    width: 55%;
+    
+}
 
-
+.seccion-horarios  p{
+     font-size: 20px;
+    letter-spacing: 1.8;
+}
 
 }
 
@@ -200,15 +209,59 @@
     bottom: 0px;
     left: 0px;
 }
+
+
+
+/*-------------------------------------------------------------------sección servicios-----------------*/
+
+.seccion-servicios{
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+   }
+
+   .seccion-servicios p{
+    font-size: 18px;
+    width: 100%;
+}
+
+.seccion-servicios .box-container-servicios{
+    width: 100%;
+    margin: 10px auto;
+    
+    
+}
+
+.box-container-servicios .box{
+    width: 40%;
+  
+}
+
+ 
+/*--------------------------------------------------------------------sección nosotros----------------------*/
+
+
+.seccion-nosotros{
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+   }
+
+   .seccion-nosotros p{
+    font-size: 18px;
+    width: 100%;
+}
+
+
     
 }
 
 
-/*-------------------------------------------------------------------------368px---------*/
-/*-------------------------------------------------------------------------368px---------*/
-/*-------------------------------------------------------------------------368px---------*/
+/*-------------------------------------------------------------------------320px---------*/
+/*-------------------------------------------------------------------------320px---------*/
+/*-------------------------------------------------------------------------320px---------*/
 
-@media screen and (max-width: 368px){
+@media screen and (max-width: 320px){
 
     /*------------------------------------------------------------header------------*/
     header .contenedor-header{
@@ -220,7 +273,7 @@
     }
 
    .contenedor-header .texto-logo p{
-    font-size: 1.9em;
+    font-size: 25px;
     letter-spacing: 3px;
     text-align: center;
 }
@@ -233,16 +286,19 @@
    .contenedor-header .navegacion a{
        display: block;
        padding: 10px;
-       font-size: 20px;
+       font-size: 25px;
        letter-spacing: 3px;
    }
 
    
 /*----------------------------------------------------------------------main-animaciones-------------*/
+    .contenedor-descripcion-imagenes{
+         margin: auto;
+    }
 
     .contenedor-descripcion-imagenes .contenedor-descripcion p{
         padding: 15px;
-        font-size: 38px;
+        font-size: 30px;
         letter-spacing: 1px;
         margin-top: 30%;
         line-height: 35px;
@@ -251,16 +307,125 @@
 
 
     .contenedor-descripcion-imagenes .contenedor-descripcion .boton{
-    width: 50%;
+    width: 45%;
     font-weight: lighter;
     padding: 10px 20px;
     letter-spacing: normal;
     margin-top: 50px;
+    font-size: 14px;
+
+    }
+
+ /*-------------------------------------------------------------------sección servicios-----------------*/
+
+.seccion-servicios{
+    padding: 10px;
+    padding: 0px;
+ 
+ }
+
+   .seccion-servicios h2{
+    font-size: 20px;
+    margin-bottom: 30px auto;
+}
+
+
+   .seccion-servicios p{
     font-size: 15px;
+  
+}
 
 
+
+.box-container-servicios .box{
+    width: 80%;
+  
+}
+
+/*-----------------------------------------------------------horarios de atención--------------------*/
+.seccion-horarios .contenido-horarios{
+    width: 60%;
+    height: auto;
+    padding: 6px 2px;
+    margin-top: 20px;
+}
+
+.seccion-horarios  h2{
+    letter-spacing: 1px;
+    font-size: 20px;
+    padding: 5px;
+    text-align: center;
+    margin: 30px auto;
+} 
+
+
+.seccion-horarios  p{
+     font-size: 17px;
+    letter-spacing: 1.3;
+    padding-bottom: 20px;
+}
+
+.seccion-horarios .btn-horarios{
+    padding: 8px;
+    font-size: 16px;
+    padding-bottom: 20px;
+    border: 2px solid #ff0080;
+    background-color: #ff0080;
+}
+
+
+/*----------------------------------------------------------------------Nosotros-----------------------------------------*/
+.seccion-nosotros{
+    width: 100%;
+}
+
+.seccion-nosotros h2{
+    font-size: 20px;
+    margin-bottom: 30px auto;
+    
+}
+
+
+.seccion-nosotros p{
+    font-size: 17px;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+
+.container-nosotros{
+    display: flex;
+    flex-direction: column;
+    padding: 30px 0px;
+    width: 100%;
+    
+    
+}
+
+.avatar-nosotros{
+    width: 60%;
+  }
+  
+
+
+  /************************************************FOOTER*****************************************************************/
+
+    footer {
+    margin-top: 700px;
+    
+    
     }
 
 
+   footer .social{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   }
 
-    }
+}
+
+
+
+
+ 
