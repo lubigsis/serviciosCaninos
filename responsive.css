@@ -18,7 +18,7 @@
 
     .contenedor-header .navegacion{
          margin-top: 40px;
-        padding: 4px 2px;
+         padding: 4px 2px;
     }
 
 
@@ -108,7 +108,7 @@
 
 .contenedor-header .navegacion a{
     color: #2a2c2f;
-    font-size: 16px;
+    font-size: 17px;
     margin: 40px 40px 0px 0px;
     letter-spacing: normal;
     padding: 8px;
@@ -174,12 +174,12 @@
 
 /*-----------------------------------------------------------horarios de atención--------------------*/
 .seccion-horarios .contenido-horarios{
-    width: 55%;
+    width: 60%;
     
 }
 
 .seccion-horarios  p{
-     font-size: 20px;
+     font-size: 18px;
      letter-spacing: 1.8;
 }
 
@@ -547,7 +547,57 @@ footer .social{
 
 }
 
+/***********************************************************************************************************/
+/*************************************************************LANDSCAPE**********************************************/
 
+/*-----------------------------------------------------------------------1080px----------------------------------*/
 
+@media screen and (max-height:1080px) and (orientation:landscape){
 
+/*---------------------------------------------------------------------------main---------------------*/
+
+.contenedor-descripcion-imagenes{
+    height: 65vh;
+    
  
+}
+
+.contenedor-descripcion-imagenes .contenedor-descripcion{
+    height: 65vh;
+   
+}
+
+.contenedor-descripcion-imagenes .contenedor-2perros{
+    height: 65vh;
+     
+    
+}
+}
+
+/*-----------------------------------------------------------------------941px----------------------------------*/
+
+@media screen and (max-height:941px) and (orientation:landscape){
+
+/*---------------------------------------------------------------------------------header----------------------*/
+    header .contenedor-header{
+        justify-content: center;
+        padding: 8px;
+    }
+
+    .contenedor-header .texto-logo h1{
+        font-size: 50px;
+        margin-right: 1rem;
+       
+    }
+    
+    .contenedor-header .texto-logo p{
+        font-size: 35px;
+        
+        
+        
+        
+    }
+
+   
+
+}
