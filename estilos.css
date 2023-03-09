@@ -17,7 +17,7 @@ body{
 
 /*-------------------------------------------------------------------------------------------------header-------*/
 header{
-    border: 2px solid blue;
+   /* border: 2px solid blue;*/
     background: linear-gradient(#fad6f9, #fff);
     max-width: 1200px;
 }
@@ -32,7 +32,7 @@ header .contenedor-header{
     align-items: center;
     margin: auto;
     flex-wrap: wrap;
-    border: 2px solid yellow; 
+ /*   border: 2px solid yellow; */
     padding: 6px;
 }
 
@@ -41,7 +41,7 @@ header .contenedor-header{
 .contenedor-header .texto-logo{   
     font-family: 'Caveat', cursive;
     font-weight: bolder; 
-    border: 2px solid green;
+ /*  border: 2px solid green;*/
        
 }
 
@@ -94,7 +94,7 @@ main{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    border: 4px solid yellow;
+ /*   border: 4px solid yellow;*/
  
 }
 
@@ -105,7 +105,7 @@ main{
         display: flex;
         justify-content: center;
         flex-direction: column;
-        border: 5px solid purple;
+    /*    border: 5px solid purple;*/
     }
 
 .contenedor-descripcion-imagenes .contenedor-descripcion p{
@@ -141,7 +141,7 @@ main{
 
 .contenedor-descripcion-imagenes .contenedor-2perros{
         width: 60%;
-        border: 5px solid red;
+    /*    border: 5px solid red;*/
         display: flex;
         justify-content: center;
         align-items: center;
@@ -194,7 +194,7 @@ main{
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    border: 2px solid rgb(148, 24, 65);
+  /*  border: 2px solid rgb(148, 24, 65);*/
     
 }
 
@@ -208,7 +208,7 @@ main{
 .box-container-servicios .box img{
     width: 100%;
     height: 60%;
-    border: 2px solid yellow;
+ /*   border: 2px solid yellow;*/
 }
 
 .box-container-servicios .box h3{
